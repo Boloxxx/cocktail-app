@@ -5,7 +5,6 @@ import {
   getRecipes,
 } from "../services/RecipeService";
 import type { Categories, Drink, Drinks, Recipe, SearchFilter } from "../types";
-import { set } from "zod";
 
 export type RecipesSliceType = {
   categories: Categories;
